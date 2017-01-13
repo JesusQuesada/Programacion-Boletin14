@@ -8,6 +8,11 @@ public class TemperaturaErradaExcepcion extends Exception {
 
     }
 
+    public TemperaturaErradaExcepcion(String s) {
+
+        super(s);
+    }
+
     /*public void errorTemp(float cent) throws TemperaturaErradaExcepcion {
      if (cent < 80) {
      throw new TemperaturaErradaExcepcion();

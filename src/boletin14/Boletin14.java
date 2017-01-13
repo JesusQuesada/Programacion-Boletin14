@@ -9,7 +9,12 @@ public class Boletin14 {
         } catch (TemperaturaErradaExcepcion e) {
             System.out.println(e.toString());
         }
-        obj.centígradosAReamur(79);
+        try {
+            obj.centígradosAReamur(80);
+        } catch (TemperaturaErradaExcepcion e) {
+            System.out.println(e.toString());
+
+        }
 
     }
 
