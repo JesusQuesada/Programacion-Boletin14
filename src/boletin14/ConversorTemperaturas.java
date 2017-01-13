@@ -14,7 +14,9 @@ public class ConversorTemperaturas {
     }
 
     public void centígradosAReamur(float cent) {
-        double ream = cent * 0.8;
+        double ream = 0.8 * cent;
+        System.out.println("Conversión a Reaumur: " + ream);
+        
     }
 
 }
